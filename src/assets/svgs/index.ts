@@ -1,0 +1,11 @@
+export { default as FileIcon } from "./file.svg";
+export { default as DownloadIcon } from "./download.svg";
+export { default as MessageIcon } from "./message.svg";
+export { default as ForwardIcon } from "./forward.svg";
+export { default as StepIcon } from "./step.svg";
+export { default as RecoImage1 } from "./reco-img1x.svg";
+export { default as RecoImage2 } from "./reco-img2x.svg";
+export { default as RecoImage3 } from "./reco-img3x.svg";
+export { default as RecoImage4 } from "./reco-img4x.svg";
+export { default as RecoImage5 } from "./reco-img5x.svg";
+export { default as RecoImage6 } from "./reco-img6x.svg";
