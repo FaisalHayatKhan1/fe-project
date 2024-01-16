@@ -16,9 +16,14 @@ export const AccountPotential = ({ step }: any): JSX.Element => {
       <Typography variant="h1" mt={2}>
         Account Potential
       </Typography>
-      <Box mt="3rem">
+      <Box  mt="3rem">
         <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
-          <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
+          <Stack
+            id="a"
+            direction="row"
+            spacing={1}
+            sx={{ alignItems: "center" }}
+          >
             <Box component="span">
               <img src={StepIcon} alt="forward" />
             </Box>
@@ -48,9 +53,14 @@ export const AccountPotential = ({ step }: any): JSX.Element => {
           facilisis justo tempus id.
         </Typography>
       </Box>
-      <Box mt="3rem">
+      <Box my="3rem">
         <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
-          <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
+          <Stack
+            id="b"
+            direction="row"
+            spacing={1}
+            sx={{ alignItems: "center" }}
+          >
             <Box component="span">
               <img src={StepIcon} alt="forward" />
             </Box>

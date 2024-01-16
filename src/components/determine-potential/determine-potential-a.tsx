@@ -19,7 +19,7 @@ import {
 import { ForwardIcon, StepIcon, UploadImage } from "assets";
 import { kpiData } from "./determine-potential.data";
 
-export const DeterminePotentialA = ({ step }:any) => {
+export const DeterminePotentialA = ({ step }: any) => {
   return (
     <Box>
       {" "}
@@ -165,7 +165,12 @@ export const DeterminePotentialA = ({ step }:any) => {
       </Grid>
       <Box mt="3rem">
         <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
-          <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
+          <Stack
+            id="a"
+            direction="row"
+            spacing={1}
+            sx={{ alignItems: "center" }}
+          >
             <Box component="span">
               <img src={StepIcon} alt="forward" />
             </Box>

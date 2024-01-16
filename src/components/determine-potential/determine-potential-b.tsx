@@ -24,7 +24,7 @@ export const DeterminePotentialB = () => {
     <Box mt="3rem">
       <Box>
         <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
-          <Stack direction="row" spacing={1} sx={{ alignItems: "center" }}>
+          <Stack id="b" direction="row" spacing={1} sx={{ alignItems: "center" }}>
             <Box component="span">
               <img src={StepIcon} alt="forward" />
             </Box>
